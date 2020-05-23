@@ -1,0 +1,35 @@
+{
+	"homepage": "https://rohanreddych.github.io/podcaster",
+	"name": "web",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/App.js",
+	"dependencies": {
+		"@reach/router": "^1.2.1",
+		"react": "^16.8.4",
+		"react-dom": "^16.8.4",
+		"react-scripts": "^3.4.1",
+		"react-sound": "^1.2.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.4.3",
+		"@babel/plugin-proposal-class-properties": "^7.4.0",
+		"@babel/preset-env": "^7.4.3",
+		"@babel/preset-react": "^7.0.0",
+		"babel-eslint": "^10.0.1",
+		"cross-env": "^5.2.0",
+		"gh-pages": "^2.2.0",
+		"parcel-bundler": "^1.12.1",
+		"prettier": "^1.16.1"
+	},
+	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"dev": "parcel src/index.html",
+		"build": "react-scripts build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
